@@ -1,0 +1,216 @@
+@media (min-width: 992px) {
+    .navbar{
+        background-image: url("../img/pict15.jpg");
+        padding-bottom: 60px;
+        background-position: 0% 45%;
+        background-size: cover;
+    }
+    .margin-m{
+		margin-top: 20px;
+	}
+	.fw{
+		font-weight: 500;
+	}
+	.text-nav{
+		color: white !important;
+	}
+	.nav-link{
+		font-size: 16px;
+		font-weight: 500;
+		color: #ffffff;
+		margin: 0 10px;
+	}
+	.active{
+		border-bottom: 1px solid white;
+		margin-bottom: -2px;
+	}
+	.nav-link:hover{
+		border-bottom: 1px solid white;
+		margin-bottom: -2px;
+	}
+    .container h1{
+        margin-top: 150px;
+    }
+    .container p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .kolom{
+        margin-top: 100px;
+    }
+    .col-sm-6 p{
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    .col-sm-6 dl dd{
+        margin-bottom: 20px;
+    }
+	.form-control:focus,
+	.form-control:active,
+	.form-control:focus {
+	    outline: none;
+	    box-shadow: none;
+		background-color: #cccccc;
+	}
+	.form-control{
+		border-radius: 0;
+		outline: none;
+	    box-shadow: none;
+		border: none;
+		background-color: #cccccc;
+		padding: 10px 10px;
+	}
+	.last-name label, .email label, .message label{
+		margin-top: 10px;
+	}
+	.button input{
+		margin-top: 20px;
+		border: none;
+		padding: 15px 40px;
+		background-color: black;
+		color: white;
+		font-weight: 600;
+		transition: 0.3s;
+
+	}
+	.button input:hover{
+		background-color: #4d4d4d;
+	}
+	.cont-foot{
+    	margin-top: 150px;
+		background-color: black;
+	}
+	.text-white h4{
+		margin-top: 100px;
+	}
+	.text-white p{
+		margin-top: 100px;
+	}
+	.foot-left{
+		width: 230px;
+		text-align: right;
+		margin-left: auto;
+	}
+}
+@media (max-width: 576px) {
+    .navbar-toggler:focus,
+	.navbar-toggler:active,
+	.navbar-toggler-icon:focus {
+	    outline: none;
+	    box-shadow: none;
+	}
+	.btn-close :focus,
+	.btn-close :active,
+	.btn-close :focus {
+	    outline: none;
+	    box-shadow: none;
+	}
+    .navbar{
+        background-image: url("../img/pict15.jpg");
+        padding-bottom: 40px;
+        background-position: 0% 45%;
+        background-size: cover;
+    }
+	.navbar span i{
+		color: #fff;
+		font-size: 25px;
+	}
+	.margin-m{
+		margin-top: 30px;
+	}
+	.nav-link{
+		color: black !important;
+	}
+	.nav-content{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		transition: 0.3s;
+		border-radius: 20px;
+
+	}
+	.nav-content-1{
+		margin-bottom: 30px;
+		transition: 0.3s;
+		border-radius: 20px;
+
+	}
+	.nav-content:hover{
+		background-color: black;
+		border-radius: 20px;
+		color: white !important;
+	}
+	.nav-content-1:hover{
+		background-color: black;
+		border-radius: 20px;
+		color: white !important;
+	}
+	.fw{
+		color: white !important;
+		font-weight: 600;
+	}
+	.container h1{
+		margin: 50px 0px 20px 0px;
+		font-weight: 700;
+	}
+	.container .cont-p{
+		font-size: 20px;
+	}
+	.col-sm-6 h3{
+		font-size: 16px;
+		font-weight: 700;
+		margin: 20px 0px 20px 0px;
+	}
+	.col-sm-6 dl dd{
+		margin-bottom: 20px;
+	}
+	.form-control:focus,
+	.form-control:active,
+	.form-control:focus {
+	    outline: none;
+	    box-shadow: none;
+		background-color: #cccccc;
+	}
+	.form-control{
+		border-radius: 0;
+		outline: none;
+	    box-shadow: none;
+		border: none;
+		background-color: #cccccc;
+		padding: 10px 10px;
+	}
+	.last-name label, .email label, .message label{
+		margin-top: 10px;
+	}
+	.button input{
+		margin-top: 20px;
+		border: none;
+		padding: 10px 30px;
+		background-color: black;
+		color: white;
+		font-weight: 600;
+		border-radius: 20px;
+		transition: 0.3s;
+		margin-bottom: 20px;
+	}
+	.button input:hover{
+		background-color: #4d4d4d;
+	}
+	.cont-foot{
+		background-color: black;
+		margin-top: 40px;
+	}
+	.foot-left{
+		width: 140px;
+		margin-left: auto;
+	}
+	.foot-row{
+		color: white;
+	}
+	.foot-row{
+		font-size: 13px;
+		font-weight: 400;
+	}
+	.col-sm-6 h4{
+		margin-top: 60px;
+	}
+}
